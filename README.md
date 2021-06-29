@@ -5,7 +5,7 @@
 
 # Retails Store Discounts App #
 
-This application provide a service developed using Spring Boot to get or provide discount for given Clients.The following discounts apply:
+This application provide a service developed using Spring Boot to get or provide discount for given Clients( provide client's user type or catergory and amount payable).The following discounts apply:
 
 If the user is an employee of the store, he gets a 30% discount. <br /> 
 If the user is an affiliate of the store, he gets a 10% discount. <br />
@@ -33,4 +33,6 @@ Alternatively you can use the Spring Boot Maven plugin like so:
 mvn spring-boot:run. 
 
 # API Testing # <br />
-API testing can be carried out using postman and postman runner functionality.
+API testing can be carried out using postman and postman runner functionality. Pass userType and amount as params on postman.
+
+<img width="819" alt="Screenshot 2021-06-29 at 12 07 16" src="https://user-images.githubusercontent.com/44907126/123779533-8de10c00-d8d2-11eb-8d92-e6f7fcc9d3dd.png">
